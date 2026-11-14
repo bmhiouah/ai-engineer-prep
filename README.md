@@ -1,5 +1,7 @@
 # AI Engineer Prep
 
+<p align="center"><img src="docs/assets/ai-engineer-prep-overview.png" alt="AI Engineer Prep overview: study loop (3D skill map, lessons, quizzes, progress) and the skills covered (LLM foundations, RAG, agents & MCP, RAG Lab)" width="100%"></p>
+
 Personal, local-first platform to **learn and self-evaluate** high-value AI engineering skills (RAG, agents/MCP, LLM foundations).
 
 - **Cover:** 3D constellation — pick what to study  
