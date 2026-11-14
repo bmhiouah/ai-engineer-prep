@@ -82,7 +82,7 @@ export const useProgressStore = create<ProgressState>()(
 
       masteryOf: (skillId) => get().bySkill[skillId]?.quizBest ?? 0,
     }),
-    { name: 'skillforge-progress-v2' },
+    { name: 'ai-engineer-prep-progress-v1' },
   ),
 )
 

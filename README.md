@@ -1,9 +1,10 @@
-# SkillForge — AI Engineer Prep
+# AI Engineer Prep
 
 Personal, local-first platform to **learn and self-evaluate** high-value AI engineering skills (RAG, agents/MCP, LLM foundations).
 
 - **Cover:** 3D constellation — pick what to study  
-- **Book:** full-screen lessons + quizzes (the heart of the tool)  
+- **Book:** full-screen lessons + quizzes  
+- **RAG Lab:** configure → break → diagnose (offline)  
 - **Progress:** nodes turn red → green from **best quiz score**
 
 ## Quick start
@@ -34,7 +35,7 @@ Aligned with junior Applied / Agentic GenAI roles (e.g. Wavestone-style JD):
 
 ## Stack
 
-Vite · React · TypeScript · React Three Fiber · Zustand · Tailwind CSS v4
+Vite · React · TypeScript · react-force-graph-3d · Zustand · Tailwind CSS v4
 
 ## Deploy (simplest)
 
@@ -42,11 +43,11 @@ Static site — e.g. Vercel or GitHub Pages after `npm run build` (output in `di
 
 ## Credits / inspiration
 
-- Lesson/quiz flow inspired by open learning apps (stepped Markdown lessons + MCQ patterns)
+- Lesson/quiz flow inspired by open learning apps (stepped lessons + MCQ patterns)
 - Curriculum shape inspired by public AI-engineer roadmaps
-- 3D cover inspired by React Three Fiber skill-tree demos
-- Lessons & quizzes written for this project (not copied verbatim)
+- 3D cover built with react-force-graph-3d
+- Lessons & quizzes written for this project
 
 ## Reset progress
 
-Use **Reset** on the cover, or clear `localStorage` key `skillforge-progress-v2`.
+Use **Reset** on the cover, or clear `localStorage` key `ai-engineer-prep-progress-v1`.

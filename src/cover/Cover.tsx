@@ -20,8 +20,8 @@ export function Cover() {
         <div className="brand">
           <span className="brand-mark" aria-hidden />
           <div>
-            <strong>SkillForge</strong>
-            <span className="brand-sub">AI Engineer prep</span>
+            <strong>AI Engineer Prep</strong>
+            <span className="brand-sub">Learn · practice · master</span>
           </div>
         </div>
         <div className="topbar-stats">
@@ -43,7 +43,7 @@ export function Cover() {
       <div className="cover-body">
         <SkillGraph />
         <aside className="cover-aside">
-          <p className="eyebrow">SkillForge</p>
+          <p className="eyebrow">Map</p>
           <h2>Your skill map</h2>
           <p className="lede">
             Explore the field. Open a skill to study, then take the quiz. As you score higher, its
